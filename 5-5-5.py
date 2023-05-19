@@ -19,4 +19,4 @@ while True:
     if not word: 
         break
     # 入力された単語に対して何か処理をする
-    print(f'単語は、「{word}」でした！')
+    print(f'単語は、「{word}」でした！　あなたは、「{word}」な人物です。')
