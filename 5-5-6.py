@@ -5,4 +5,12 @@ for x in seq:
     if condition(x):
         broke_out = True
         break
+
     
+
+
+    print("fixしました。")
+
+    print(x)
+
+
