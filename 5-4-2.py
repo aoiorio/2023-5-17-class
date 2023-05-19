@@ -1,13 +1,15 @@
-#name = input("お名前は？：")
-#if name.endswith("葵"):
-#    print('こんにちは、' + name)
-#else:
-#    print("初めまして。")
-    #name2 = input("知りませんね。じゃあ、誰ですか？：")
-    #if name2.endswith("一平"):
-        #print("はじめまして。" + name2)
-#status = "友人" if name.endswith("一平") else "他人"
-#print(status)
+name = input("お名前は？：")
+if name.endswith("葵"):
+    print('こんにちは、' + name)
+elif name.endswith("折尾"):
+    print("おはよう" + name)
+else:
+    print("初めまして。")
+    name2 = input("知りませんね。じゃあ、誰ですか？：")
+    if name2.endswith("一平"):
+        print("はじめまして。" + name2)
+status = "友人" if name.endswith("一平") else "他人"
+print(status)
 
 #num = float(input('数を入力してください：　'))
 #if num > 0:
