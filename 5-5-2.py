@@ -12,7 +12,7 @@
 # #     print(key, 'は', d[key], 'に対応')
 
 # # for key in d.values():
-# #     print(key, 'は', 'に対応')
+#      print(key, 'は', 'に対応')
 
 
 # names = ["渋谷", "恵比寿", "上野", "巣鴨"]
