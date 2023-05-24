@@ -1,10 +1,10 @@
-# # from math import sqrt
-# # print(list(range(99, 0, -1)))
-# # for n in range(9, 0, -1):
-# #     root = sqrt(n)
-# #     if root == int(root):
-# #         print(n)
-# #         break
+# from math import sqrt
+# print(list(range(9, 0, -1)))
+# for n in range(9, 0, -1):
+#     root = sqrt(n)
+#     if root == int(root):
+#         print(n)
+#         break
 
 # seq = [1,2,3,4,5,6]
 # for x in seq:
@@ -19,4 +19,4 @@ while True:
     if not word: 
         break
     # 入力された単語に対して何か処理をする
-    print(f'単語は、「{word}」でした！　あなたは、「{word}」な人物です。')
+    print(f'単語は、「{word}」でした！ あなたは、「{word}」な人物です。')
