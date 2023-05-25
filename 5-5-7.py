@@ -8,5 +8,6 @@ elif name == "葵":
 elif name == "折尾":
     pass 
     # print("花子")
+elif name == "悪代官だよね":
 elif name == "悪代官のような何か":
     print("アクセスは拒否されました")
