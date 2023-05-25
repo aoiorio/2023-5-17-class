@@ -7,6 +7,6 @@ elif name == "葵":
     # あとで追加
 elif name == "折尾":
     pass 
-    # print("花子")
+    # print("花子どうも")
 elif name == "悪代官のような何か":
     print("アクセスは拒否されました")
