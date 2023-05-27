@@ -14,7 +14,7 @@
 # hello_1(name='折尾', greeting='こんばんは')
 # hello_1()
 
-# 可変長引数
+# 可変長引数で
 def hello_2(title, param3, *params):
     print(title, param3, params)
 
