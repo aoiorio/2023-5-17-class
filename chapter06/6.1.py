@@ -13,7 +13,7 @@ def test2(x):
     return
 
 
-# hello('折尾')
+# hello('折尾のような何か')
 # hello('山田')
 # test()
 y = test2(1)
