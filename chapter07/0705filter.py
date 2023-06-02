@@ -6,7 +6,7 @@ class Filter:
 
 class SPAMFilter(Filter):
     def init(self):
-        self.blocked = ['eggs']
+        self.blocked = ['SPAM']
 
 # main処理
 f = Filter()
