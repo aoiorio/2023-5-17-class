@@ -6,5 +6,5 @@ def factorial(n):
     # nが1でない時、再帰呼び出しする
     return n * factorial(n - 1)
 
-kaijou = factorial(3)
+kaijou = factorial(int(input()))
 print(kaijou)
