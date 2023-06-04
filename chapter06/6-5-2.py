@@ -1,4 +1,4 @@
-#
+# 
 def print_params(x, y, z=3, *pospar, **keypar):
     print(x, y, z)
     print(pospar)
