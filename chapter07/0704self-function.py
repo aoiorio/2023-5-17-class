@@ -4,10 +4,16 @@ class Class1:
 def function1(self):
     print(f'引数selfの値(function1): {self}')
 
+class Git:
+    def git(self):
+        print(f'あなたのGitHubのアカウントは{self}ですね？')
+
 # 実行
 instance1 = Class1()
 instance1.method1()
 instance1.method1() == function1(self="aa")
-function1()
+gitname = Git()
+gitname.git()
+function1(8)
 # instance1.method1 = function1
 # instance1.method1()
