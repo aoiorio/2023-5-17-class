@@ -16,3 +16,6 @@ fivePrint(age)
 
 birth = input("When is your birthday?")
 fivePrint(birth)
+
+feature = input("What's your feature?")
+fivePrint(feature)
