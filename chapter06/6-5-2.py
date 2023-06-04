@@ -13,4 +13,4 @@ def add(x, y, z, a):
 
 params = (1, 2, 3)
 print( add(1, *params) ) 
-
+print(add(1, 2, *params))
