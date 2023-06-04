@@ -7,7 +7,7 @@ print_params(1, 2, 3, 5, 6, 7, foo=1, bar=2)
 print('-' * 10)
 print_params(1, 2)
 
-# 逆の処理です
+# 逆の処理です。
 def add(x, y, z, a):
     return x + y
 
