@@ -12,8 +12,7 @@ def test():
 def test2(x):
     return x
 
-
-
+# 実行
 # hello('折尾のような何か')
 # hello('山田')
 # test()
