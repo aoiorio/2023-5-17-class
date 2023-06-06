@@ -9,7 +9,7 @@ def fifthPrint(arg):
     print(arg)
     print(arg)
 
-# 名前 
+# 名前
 name = input("What's your name?")
 fivePrint(name)
 
