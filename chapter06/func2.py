@@ -8,6 +8,8 @@ def fifthPrint(arg):
     print(arg)
     print(arg)
     print(arg)
+
+# 名前を表示する
 name = input("What's your name?")
 fivePrint(name)
 

@@ -18,7 +18,7 @@ class Pokemon:
         print(f"{self.name}は、{self.type}タイプ。HPは{self.hp}です。飼い主は、{self.host}です。")
     
 
-        
+
 pikatyu = Pokemon("ピカチュウ", 100, "でんき", "たかし")
 hitokage = Pokemon("ヒトカゲ", 50, "ひ", "誰か")
 pikatyu.printInfo() #ピカチュウのタイプやHPを表示してくれる
