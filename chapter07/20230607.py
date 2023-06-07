@@ -32,11 +32,15 @@ class ComplexData(SimpleData):
         return self.a + self.b + self.c
     
     
-
+class Main:
+    
+    def git(self):
+        return 12
 data1 = SimpleData(1, 2)
 print(data1.sum())
 data1 = None
-
+main = Main()
+print(main.git())
 
 
 

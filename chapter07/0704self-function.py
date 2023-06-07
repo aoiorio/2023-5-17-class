@@ -15,5 +15,6 @@ instance1.method1() == function1(self="aa")
 gitname = Git()
 gitname.git()
 function1(8)
+# 
 # instance1.method1 = function1
 # instance1.method1()
