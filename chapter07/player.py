@@ -11,7 +11,7 @@ class Player(): # クラス「冒険者（プレイヤー）」
 
     def introduction(self, opponent):
         print("私の名前は" + self.name + "。よろしくね" + opponent + "さん。")
-    # status information
+    # status informationの
     def display_info(self):
         print("----status information----")
         print("名前： %s" % self.name)
