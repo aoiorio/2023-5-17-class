@@ -20,7 +20,7 @@ class Player(): # クラス「冒険者（プレイヤー）」
         print("MP: %3d/%3d" % (self.mp, self.maxmp))
         print("攻撃力：%3d" % self.attack)
         print("防御力：%3d" % self.defence)
-    # ダメージを与える（x だけHPを減らす）
+    # ダメージを与える（x だけHPを減らす!）
     def damage(self, x):
         if x > self.hp:
             self.hp = 0
