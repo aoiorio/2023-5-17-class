@@ -8,7 +8,7 @@ class Player(): # クラス「冒険者（プレイヤー）」
         self.maxmp = mp
         self.attack = attack
         self.defence = defence
-    # in
+    # int
     def introduction(self, opponent):
         print("私の名前は" + self.name + "。よろしくね" + opponent + "さん。")
     # status informationの関数
