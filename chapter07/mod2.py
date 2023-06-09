@@ -1,6 +1,9 @@
 class openClass():
-    def init(self, name):
+    name = "";
+    __age = 0;
+    def init(self, name, age):
         self.name = name
+        self.__age = age
 
     def get_name(self):
         return self.name
