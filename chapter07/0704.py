@@ -4,3 +4,6 @@ class Class1:
     
 def function1(self):
     print(f"function1:{self}")
+
+instance1 = Class1()
+instance1.method1()
