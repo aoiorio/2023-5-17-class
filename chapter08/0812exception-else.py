@@ -1,6 +1,6 @@
 try:
     print("簡単な仕事") # 簡単なお仕事
-    raise Exception("error") # エラーが発
+    raise Exception("error") # エラーが発生
 except:
     print("エラーが発生しました。")
 else:
