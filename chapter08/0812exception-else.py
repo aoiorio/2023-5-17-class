@@ -1,5 +1,5 @@
 try:
-    print("簡単な仕事") # 簡
+    print("簡単な仕事") # 簡単
     raise Exception("error")
 except:
     print("エラーが発生しました。")
