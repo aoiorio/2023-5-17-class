@@ -5,3 +5,4 @@ except:
     print("エラーが発生しました。")
 else:
     print("処理正常")
+# そうですね
