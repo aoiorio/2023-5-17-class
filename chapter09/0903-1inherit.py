@@ -4,10 +4,10 @@ class A:
 
 class B(A): # Bでオリジナルの処理をしたい！！
     def hello(self):
-        print("Hello I'm B.") # AをBにする
+        print("Hello I'm B.") # AをBにする(class Aの関数を上書きする)
     
     def helloA(self):
-        super().hello()
+        super().hello() # class Aの関数helloを持ってきている
 
 # インスタンス化
 a = A()
