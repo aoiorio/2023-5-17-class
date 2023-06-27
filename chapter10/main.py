@@ -8,5 +8,6 @@ from hello import * # 全ての関数をimport できる [file name].[function n
 # hello_def2()
 
 # importされるときに実行されている関数も取り込んでしまう
+
 # 例えば Hello, test!
 print(__name__)
