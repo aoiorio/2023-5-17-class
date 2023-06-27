@@ -11,3 +11,4 @@ from hello import * # 全ての関数をimport できる [file name].[function n
 
 # 例えば Hello, test!
 print(__name__)
+
