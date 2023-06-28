@@ -4,4 +4,4 @@ try: # for ぶんでsome_file
     for i in range(5):
         some_file.write(f'{i}Hello, Python\n')
 finally:
-    some_file.close()
+    some_file.close() # file をclose
