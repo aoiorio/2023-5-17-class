@@ -7,7 +7,8 @@ def animal_generator():
     yield "horse"
 
 
-animal = animal_generator() # インスタンス化
+animal = animal_generator() # generateのクラスを作るということはクラスなのでこの処理はインスタンス化といえなくもない
+print(type(animal))
 # animal自体はオブジェクト
 # print(next(animal)) # nextで呼び出すことができる catっていうとこまで処理する 関数を止める　catまで
 # nextで区切ることができるっていうのがジェネレーターの役割(機能)
