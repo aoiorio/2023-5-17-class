@@ -1,5 +1,47 @@
+0:あいうえお!
+1:あいうえお!
+2:あいうえお!
+3:あいうえお!
+Hello, Python
+1Hello, Python
+2Hello, Python
+3Hello, Python
+4Hello, Python
 0Hello, Python
 1Hello, Python
 2Hello, Python
 3Hello, Python
 4Hello, Python
+0:Hello, Python!
+1:Hello, Python!
+2:Hello, Python!
+3:Hello, Python!
+4:Hello, Python!
+0:Hello, Python!
+1:Hello, Python!
+2:Hello, Python!
+3:Hello, Python!
+4:Hello, Python!
+5:Hello, Python!
+6:Hello, Python!
+7:Hello, Python!
+8:Hello, Python!
+9:Hello, Python!
+0:あいうえお!
+1:あいうえお!
+2:あいうえお!
+3:あいうえお!
+4:あいうえお!
+5:あいうえお!
+6:あいうえお!
+7:あいうえお!
+8:あいうえお!
+9:あいうえお!
+0:あいうえお!
+1:あいうえお!
+2:あいうえお!
+3:あいうえお!
+0:あいうえお!
+1:あいうえお!
+2:あいうえお!
+3:あいうえお!
