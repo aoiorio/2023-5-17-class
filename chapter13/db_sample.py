@@ -12,7 +12,7 @@ cursor.execute('''
         name TEXT NOT NULL,
         email TEXT NOT NULL
 );
-''') # sqlite3
+''') # sqlite3の書き方
 
 query ='INSERT INTO test (name, email) VALUES (?, ?)'
 cursor.execute(query, ('Yamada Taro', 'taro@email.com')) # ?, ? に入れたい値を入れることができる
