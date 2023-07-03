@@ -1,4 +1,4 @@
-import sqlite3 # sqlite3
+import sqlite3 # sqlite3を追加
 
 #データベースに接続
 conn = sqlite3.connect('text.db')
