@@ -13,7 +13,7 @@ cursor.execute('''
         email TEXT NOT NULL
 );
 ''') 
-# sqlite3の書き方は全て英語の大文字です。
+# sqlite3の書き方は全て英語の大文字です。　testというテーブルがなかったら新たに作るというコード
 
 query ='INSERT INTO test (name, email) VALUES (?, ?)'
 cursor.execute(query, ('Yamada Taro', 'taro@email.com')) # ?, ? に入れたい値を入れることができる
