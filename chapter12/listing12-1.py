@@ -1,6 +1,6 @@
 from tkinter import * 
 from tkinter.scrolledtext import ScrolledText
-# tinterをimp
+# tinterをimpo
 def load():
     with open(filename.get()) as file:
         contents.delete('1.0', END)
