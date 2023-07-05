@@ -1,6 +1,6 @@
-from tkinter import *
+from tkinter import * # Tkinterというモジュールをimportする
 
-def click():
+def click(): # クリックした時の動作をここで指定している
     print("You clicked it!")
 
 top = Tk() # インスタンス化 topという変数にtkinterのTk()を代入これがオブジェクト？？
