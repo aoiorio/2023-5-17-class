@@ -2,7 +2,7 @@ some_file = open('some.txt', 'r+') # どんな形態にするか指定するread
 
 # ls = some_file.readline()
 # print(ls)
-# # print(some_file.read()) # 最初に読み込んでしまうと次の文が末尾に追加されてしまう
+#  print(some_file.read()) # 最初に読み込んでしまうと次の文が末尾に追加されてしまう
 
 
 # try: # for 文でsome_file
