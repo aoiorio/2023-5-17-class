@@ -1,7 +1,7 @@
 import sqlite3 # sqlite3を追加
 
 #データベースに接続
-conn = sqlite3.connect('user.db')
+conn = sqlite3.connect('test.db')
 # データベースのカーソルを取得
 cursor = conn.cursor()
 
