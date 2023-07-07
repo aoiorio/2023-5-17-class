@@ -15,6 +15,7 @@ cursor.execute('''
         age INTEGER NOT NULL 
 );
 ''')
+# if not exists userはuserというテーブルがなかった時に新しく作るという条件を指定している
 # NOT NULL はあってもなくてもいい
 query ='INSERT INTO user (name, password, address, age) VALUES (?, ?, ?, ?)' # ??は後で入れるよという意味
 cursor.execute(query, ('Aoi Orio', 'pass101', 'okinawa', 15)) # ?, ? に入れたい値を入れることができる
