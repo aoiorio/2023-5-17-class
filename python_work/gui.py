@@ -1,5 +1,5 @@
 import PySimpleGUI as sg
-# PySimpleGUIをimport
+# PySimpleGUIをimport(追加)
 
 
 layout = [[sg.Text("Hello from PySimpleGUI")], 
