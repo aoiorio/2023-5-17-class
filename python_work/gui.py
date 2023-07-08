@@ -4,7 +4,7 @@ import PySimpleGUI as sg
 
 layout = [[sg.Text("Hello from PySimpleGUI")], 
         [sg.Text("GoodMorning from PySimpleGUI")], 
-        [sg.Text("GoodMorning from PySimpleGUI"), sg.InputText()],] # テキストを入力する
+        [sg.Text("GoodMorning from PySimpleGUI"), sg.InputText()],] # テキストを入力すること
 
 window = sg.Window('title', layout)
 evnet, values = window.read()
