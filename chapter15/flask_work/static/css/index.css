@@ -1,0 +1,15 @@
+.neumorphism {
+    width: 50;
+    height: 50;
+    border-radius: 50px;
+    background: #afa8a8;
+    box-shadow:  20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+}
+
+h1{
+    color: red;
+}
+h2{
+    color: blue;
+}
