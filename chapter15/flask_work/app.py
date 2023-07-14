@@ -1,18 +1,18 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route('/')
-def powers(n=10):
-    return ' next'.join(str(2**i) for i in range(n))
-
 @app.route('/hello')
-def hello():
-    return f'hello atom'
+def index():
+    return render_template('html/hello.html') # html/index.htmlを表示しますよという指定
 
-@app.route('/python')
-def hello_python():
-    return 'Hello Python world!'
+@app.route('/flask')
+def flask_hello():
+    return render_template('html/flask.html')
+
+# @app.route('/python')
+# def hello_python():
+#     return 'Hello Python world!'
 
 if __name__ == '__main__':
     app.run(debug=True)
