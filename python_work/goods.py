@@ -2,7 +2,7 @@ from connection import *
 
 
 class Goods:
-    def __init__(self): #一番最初に
+    def __init__(self): #一番最初に実行
         self.connection = SQLiteConnection("goods.db")
         self.connection.connect()
 
