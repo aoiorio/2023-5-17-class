@@ -35,4 +35,4 @@ while True:
 
         window["-COMPLETE-"].update(values["-NAME-"] + 'が追加されました')
 ### ここまで
-window.close() #
+window.close() #ファイル
