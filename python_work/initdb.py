@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect("goods.db") # goods.dbのデータベースに繋げて
+conn = sqlite3.connect("goods.db") # goods.dbのデータベースに繋げている
 cursor = conn.cursor()
 cursor.execute(
     """
