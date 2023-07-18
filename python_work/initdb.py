@@ -1,7 +1,7 @@
 import sqlite3
 
 conn = sqlite3.connect("goods.db") # goods.dbのデータベースに繋げている
-cursor = conn.cursor() # 
+cursor = conn.cursor() # カーソル
 cursor.execute(
     """
     CREATE TABLE IF NOT EXISTS goods (
