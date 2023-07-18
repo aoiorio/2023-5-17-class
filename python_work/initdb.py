@@ -20,4 +20,4 @@ cursor.execute(query, ("プレステ5", "005"))
 cursor.execute(query, ("サッカーボール", "006"))
 cursor.execute(query, ("黄金バット", "007"))
 conn.commit()
-conn.close() 
+conn.close() # データベースを閉じる
