@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect("goods.db") # goods.dbの
+conn = sqlite3.connect("goods.db") # goods.dbのデータ
 cursor = conn.cursor()
 cursor.execute(
     """
