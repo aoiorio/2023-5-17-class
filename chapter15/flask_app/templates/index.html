@@ -8,11 +8,15 @@
 <body>
     <h1>I'm Atom!</h1>
     <p>My favorite food is bread crusts!</p>
-    <h1>{{ tasks.title }}</h1>
-    <p>{{ tasks.detail }}</p>
-    <p>{{ tasks.due }}</p>
+    {% for task in tasks %}
+        <p>task: {{ task.title }}</p>
+        <p>detail: {{ task.detail }}</p>
+        <p>due: {{ task.due }}</p>
+    {% endfor %}
     <form action="/input" method="POST">
-        <input type="text" name="title">
+        <input type="text" name="task_name" placeholder="task name"><br />
+        <input type="text" name="detail" placeholder="detail"><br />
+        <input type="date" name="due"><br />
         <button type="submit">Send</button>
     </form>
 </body>
