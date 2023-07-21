@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% for user in users %}
+        <p>user: {{ user.first_name }} {{ user.last_name }}</p>
+        <p>email: {{ user.email }}</p>
+    {% endfor %}
+    <form action="/user_form/input" method="POST">
+        <input type="text" name="first_name">
+        <input type="text" name="last_name">
+        <input type="text" name="email">
+        <button type="submit">sign up</button>
+    </form>
+</body>
+</html>
