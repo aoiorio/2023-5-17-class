@@ -8,7 +8,7 @@
 <body>
     <h1>I'm Atom!</h1>
     <p>My favorite food is bread crusts!</p>
-    {% for task in tasks %} <!-- pythonのコードを記述するとき
+    {% for task in tasks %} <!-- pythonのコードを記述するときは{% %}を使う -->
         <p>task: {{ task.title }}</p>
         <p>detail: {{ task.detail }}</p>
         <p>due: {{ task.due }}</p>
