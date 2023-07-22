@@ -11,7 +11,7 @@
         <p>email: {{ user.email }}</p>
     {% endfor %}
     <form action="/user_form/input" method="POST">
-        <input type="text" name="first_name"> <!-- userの情報html側から受け取る --
+        <input type="text" name="first_name"> <!-- userの情報html側から受け取る -->
         <input type="text" name="last_name">
         <input type="text" name="email">
         <button type="submit">sign up</button>
