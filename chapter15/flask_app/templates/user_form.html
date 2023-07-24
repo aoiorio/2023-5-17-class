@@ -7,7 +7,7 @@
 </head>
 <body>
     {% for user in users %}
-        <p>user: {{ user.first_name }} {{ user.last_name }}</p> <!-- 
+        <p>user: {{ user.first_name }} {{ user.last_name }}</p> <!-- {{ 変数名 }}
         <p>email: {{ user.email }}</p>
     {% endfor %}
     <form action="/user_form/input" method="POST">
