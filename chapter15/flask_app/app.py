@@ -11,7 +11,7 @@ class Task(db.Model):
     detail = db.Column(db.String(20), nullable=False)
     due = db.Column(db.String(10), nullable=False)
 
-class User(db.Model): 
+class User(db.Model): #
     __tablename__ = "User"
     id = db.Column(db.Integer, primary_key=True)
     first_name = db.Column(db.String(10), nullable=False)
