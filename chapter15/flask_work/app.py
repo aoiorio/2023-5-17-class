@@ -8,7 +8,7 @@ def index():
 
 @app.route('/flask')
 def flask_hello():
-    return render_template('html/flask.html') # html/flask.htmlファイル
+    return render_template('html/flask.html') # html/flask.htmlファイルに
 
 # @app.route('/python')
 # def hello_python():
