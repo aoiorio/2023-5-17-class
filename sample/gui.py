@@ -23,4 +23,4 @@ while True:  # Event Loop
     if event == "Register":
         window["-update-"].update(f'{values["-THING-"]}が追加されました。')
 
-window.close() #
+window.close() #ファイルを
