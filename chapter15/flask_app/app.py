@@ -53,7 +53,7 @@ def view_user():
         )
         db.session.add(user)
         db.session.commit()
-        return redirect('/user_form') # /user_formにred
+        return redirect('/user_form') # /user_formに飛ばす
 
 
 
