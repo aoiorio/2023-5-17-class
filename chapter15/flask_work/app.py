@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     return render_template('html/hello.html') # html/index.htmlを表示しますよという指定
 
-@app.route('/flask') #/flaskというpath
+@app.route('/flask') #/flaskというpathを
 def flask_hello():
     return render_template('html/flask.html') # html/flask.htmlファイルに飛ばす
 
