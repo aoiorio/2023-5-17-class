@@ -25,7 +25,7 @@ def index():
     for task in tasks:
         print(task.title, task.detail)
 
-    return render_template('index.html', tasks=tasks) # index.html
+    return render_template('index.html', tasks=tasks) # index.htmlに
 
 @app.route('/user_form')
 def user_page():
