@@ -15,7 +15,7 @@ class Goods:
         query = "SELECT * FROM goods WHERE goods_id = ?"
         self.connection.execute_query(query, goods_id)
         row = self.connection.fetch_one()
-        self.connection.close()
+        self.connection.close() #
         return row
 
     def goods_fetch_all(self):
