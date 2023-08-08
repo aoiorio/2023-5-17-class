@@ -5,5 +5,5 @@
 - python_work folder is a gui folder.
 - If file name has "db" in front of it, that's a creating database file.
 - python_work files are virtual environments of python.(e.g --> python_work, python_work1) something like that.
-- In my code, there are
+- In my code, there are 
 #### 🥞My Qiita---> https://qiita.com/atomu
