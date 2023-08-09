@@ -6,5 +6,5 @@
 - If file name has "db" in front of it, that's a creating database file.
 - python_work files are virtual environments of python.(e.g --> python_work, python_work1) something like that.
 - In my code, there are many comment. If there is a difficult code for me, I add interpret of code.
-- Typhoon is comming
+- Typhoon is comming 
 #### 🥞My Qiita---> https://qiita.com/atomu
