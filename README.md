@@ -7,5 +7,5 @@
 - python_work files are virtual environments of python.(e.g --> python_work, python_work1) something like that.
 - In my code, there are many comment. If there is a difficult code for me, I add interpret of code.
 - Typhoon is coming to Tokyo.
-- .gitignore has unnecessary files name like .DS_Store, 
+- .gitignore has unnecessary files name like .DS_Store, __pycache__
 #### 🥞My Qiita---> https://qiita.com/atomu
