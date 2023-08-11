@@ -8,5 +8,5 @@
 - In my code, there are many comment. If there is a difficult code for me, I add interpret of code.
 - Typhoon is coming to Tokyo.
 - .gitignore has unnecessary files name like .DS_Store, __pycache__, etc. So We don't need to delete each of them.
-- .db
+- .db 
 #### 🥞My Qiita---> https://qiita.com/atomu
