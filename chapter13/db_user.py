@@ -24,4 +24,4 @@ cursor.execute(query, ('DAreka', 'muo', 'hawaii', 89))
 cursor.execute(query, ('hai', 'wai', 'america', 35))
 
 conn.commit() # 追加した内容を確約する
-conn.close() # databaseを閉じる
+conn.close() # databaseを閉じるclose
