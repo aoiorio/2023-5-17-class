@@ -23,5 +23,5 @@ cursor.execute(query, ('Uemura', 'houhou1', 'tokyo', 26))
 cursor.execute(query, ('DAreka', 'muo', 'hawaii', 89))
 cursor.execute(query, ('hai', 'wai', 'america', 35))
 
-conn.commit() 
+conn.commit() #
 conn.close()
