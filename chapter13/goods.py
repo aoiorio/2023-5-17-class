@@ -8,4 +8,4 @@ class Goods:
     def goods_insert(self, goods_name, goods_no):
         query = 'INSERT INTO goods (goods_name, goods_no) VALUES (?, ?)'
         self.connection.execute_query(query, goods_name, goods_no)
-        self.connection.close() databaseを閉じ
+        self.connection.close() databaseを閉じる
