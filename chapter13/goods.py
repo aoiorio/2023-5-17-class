@@ -3,7 +3,7 @@ from connection import *
 
 class Goods:
     def __init__(self):
-        self.connection = SQLiteConnection('test.db') # test.dbに
+        self.connection = SQLiteConnection('test.db') # test.dbに接続する
         self.connection.connect()
     def goods_insert(self, goods_name, goods_no):
         query = 'INSERT INTO goods (goods_name, goods_no) VALUES (?, ?)'
