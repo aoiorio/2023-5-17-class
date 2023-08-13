@@ -21,6 +21,6 @@ while True:  # Event Loop
         # change the "output" element to be the value of "input" element
         window["-OUTPUT-"].update(values["-IN-"])
     if event == "Register":
-        window["-update-"].update(f'{values["-THING-"]}が追加されました。') # Keyを設定したらそのKeyに対して
+        window["-update-"].update(f'{values["-THING-"]}が追加されました。') # Keyを設定したらそのKeyに対してアクションを起こすことができる
 
 window.close() #ファイルを閉じる動作
