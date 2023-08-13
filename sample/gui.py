@@ -1,4 +1,4 @@
-import PySimpleGUI as sg # Py
+import PySimpleGUI as sg # PySim
 
 sg.theme("DarkBlue13")  # please make your windows colorful
 layout = [
