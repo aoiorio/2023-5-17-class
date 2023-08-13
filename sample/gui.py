@@ -1,4 +1,4 @@
-import PySimpleGUI as sg # PySimpleGUIを
+import PySimpleGUI as sg # PySimpleGUIをs
 
 sg.theme("DarkBlue13")  # please make your windows colorful
 layout = [
