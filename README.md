@@ -1,6 +1,6 @@
 ## 🍿This is a 2023-python-class repository.
-1 chapter[number] means chapter number.
-2 Sometimes file's name is variable.
+1. chapter[number] means chapter number.
+2. Sometimes file's name is variable.
 3 I think python is useful and powerful.
 4 python_work folder is a gui folder.
 5 If file name has "db" in front of it, that's a creating database file.
