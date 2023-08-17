@@ -1,7 +1,7 @@
 ## 🍿This is a 2023-python-class repository.
 1. **chapter[number] means chapter number.**
 2. __Sometimes file's name is variable.__
-3. I think python is useful and powerful.
+3. **I think python is useful and powerful.**
 4. python_work folder is a gui folder.
 5. If file name has "db" in front of it, that's a creating database file.
 6. python_work files are virtual environments of python.(e.g --> python_work, python_work1) something like that.
