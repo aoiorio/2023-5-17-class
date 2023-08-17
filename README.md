@@ -7,6 +7,6 @@
 6. python_work files are virtual environments of python.(e.g --> python_work, python_work1) something like that.
 7. In my code, there are many comment. If there is a difficult code for me, I add interpret of code.
 8. Typhoon is coming to Tokyo.
-- .gitignore has unnecessary files name like .DS_Store, __pycache__, etc. So We don't need to delete each of them.
+ .gitignore has unnecessary files name like .DS_Store, __pycache__, etc. So We don't need to delete each of them.
 - .db means database.
 #### 🥞My Qiita---> https://qiita.com/atomu
