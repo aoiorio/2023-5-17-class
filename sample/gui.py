@@ -2,7 +2,7 @@ import PySimpleGUI as sg # PySimpleGUIをsgとしてimportする
 
 sg.theme("DarkBlue13")  # please make your windows colorful
 layout = [
-    [sg.Text("1から7の好きな数字を入力してください"), sg.Text(size=(12, 1), key="-OUTPUT-")], # 
+    [sg.Text("1から7の好きな数字を入力してください"), sg.Text(size=(12, 1), key="-OUTPUT-")], # ここ
     [sg.Input(key="-IN-")],
     [sg.Button("Show")],
     [sg.Text("追加データを入力してください")],
