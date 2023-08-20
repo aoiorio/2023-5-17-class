@@ -1,5 +1,5 @@
 import PySimpleGUI as sg
-from goods import * # *は全てという意味（In this case goodsの全てを（クラスなど））
+from goods import * # *は全てという意味（In this case goodsの全てを（クラスなど）を）
 
 sg.theme("Dark Blue 3")
 
