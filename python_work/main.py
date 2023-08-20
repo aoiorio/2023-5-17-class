@@ -1,5 +1,5 @@
 import PySimpleGUI as sg
-from goods import * # *
+from goods import * # *は
 
 sg.theme("Dark Blue 3")
 
