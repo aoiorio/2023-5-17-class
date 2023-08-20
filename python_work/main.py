@@ -1,7 +1,7 @@
 import PySimpleGUI as sg
 from goods import * # *は全てという意味（In this case goodsの全てを（クラスなど）をimportする）
 
-sg.theme("Dark Blue 3") #好きな
+sg.theme("Dark Blue 3") #好きなテーマ
 
 layout = [
     [sg.Text("1~7の好きな数字を入力してください"), sg.Text(size=(12, 1), key="-OUTPUT-")],
