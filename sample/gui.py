@@ -8,7 +8,7 @@ layout = [
     [sg.Text("追加データを入力してください")],
     [sg.Text("商品"), sg.Input(key='-THING-'), sg.Text("商品コード"), sg.Input(key='-IN-')],
     [sg.Text('', key='-update-'), sg.Text('', key='-number-')],
-    [sg.Button("Register"), sg.Button("Exit")], # Buttonを
+    [sg.Button("Register"), sg.Button("Exit")], # Buttonを配置
 ]
 window = sg.Window("Window Title", layout)
 
