@@ -19,7 +19,7 @@ while True:  # Event Loop
         break
     if event == "Show":
         # change the "output" element to be the value of "input" element
-        window["-OUTPUT-"].update(values["-IN-"]) # OUTPUT
+        window["-OUTPUT-"].update(values["-IN-"]) # OUTPUTの値をINの値に変える
     if event == "Register": # もしeventがRegisterになったらという条件式
         window["-update-"].update(f'{values["-THING-"]}が追加されました。') # Keyを設定したらそのKeyに対してアクションを起こすことができる
 
