@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Search address</h1>
+    <form method="POST">
+        <label for="post_code">Your post code: </label>
+        <input type="text" id="post_code" name="post_code" placeholder="140-0004" required>
+        <br />
+        <input type="submit" value="Search your address">
+    </form>
+    {% if results %}
+        <h1>Result for your post code</h1>
+        <h2>Prefectures: {{ results.address1 }}</h2>
+        <h2>City ward: {{ results.address2 }}</h2>
+        <h2>Town/village: {{ results.address3 }}</h2>
+    {% endif %}
+</body>
+</html>
