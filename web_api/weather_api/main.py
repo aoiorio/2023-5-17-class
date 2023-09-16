@@ -1,13 +1,20 @@
 import requests
 
 
-def search_weather(self):
+def search_weather():
     # APIの取得
     url = f"https://api.open-meteo.com/v1/forecast?latitude=35.6895&longitude=139.6917&hourly=temperature_2m"
     response = requests.get(url)
-    # 辞書型になっている値をjsonで取得してdataに代入する
+    # 辞書型になっている値をjsonでレスポンス形式にしてdataに代入する
+    data = response.json()
+    print(data['latitude'])
+
+
+def search_rain():
+    url = "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m,precipitation&forecast_days=1"
+    response = requests.get(url)
     data = response.json()
     print(data)
 
-
-search_weather(1)
+search_weather()
+search_rain()

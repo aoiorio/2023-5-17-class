@@ -37,7 +37,6 @@ def search_weather(self):
 def home():
     weather_results = {}
     if request.method == 'POST':
-       
         weather = request.form.get('post_code')
         weather_results = search_weather(weather)
         print(weather_results)
