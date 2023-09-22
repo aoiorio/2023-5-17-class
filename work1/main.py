@@ -11,7 +11,7 @@ jobs = set()
 for job in soup.body.section('li'):
     jobs.add(f'{job.a.string})')
 
-print()
+# print()
 # h2 tagのものを取得する
 # for job in soup.body.section('h2'):
 #     jobs.add(f'{job.a.string}) ({job.a["href"]}')
