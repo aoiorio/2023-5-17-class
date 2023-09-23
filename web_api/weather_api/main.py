@@ -16,5 +16,6 @@ def search_rain():
     data = response.json()
     print(data)
 
+# 関数を実行する
 search_weather()
 search_rain()
