@@ -10,7 +10,7 @@ soup = BeautifulSoup(web_site_html_text, "html.parser")
 
 a_tag = soup.find_all("a", class_="style-3ki7ar")
 
-# 一行ver
+# one sentence ver
 # result = [i.get('href') for i in soup.find_all("a", class_="style-3ki7ar")]
 
 
