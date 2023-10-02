@@ -12,7 +12,6 @@ a_tag = soup.find_all("a", class_="style-3ki7ar")
 
 # 一行ver
 # result = [i.get('href') for i in soup.find_all("a", class_="style-3ki7ar")]
-# print(result)
 
 
 for i in a_tag:
