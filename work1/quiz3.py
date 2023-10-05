@@ -16,3 +16,15 @@ test = soup.find("ul", {"aria-label": "Main Navigation"}).findChildren(
 )
 for a in test:
     print(a.find("a").text)
+
+ul = soup.find_all("ul", class_="navigation menu")
+
+# print(ul)
+
+print("----------------------- teacher")
+# mainnavというidを指定して、ulのliをとるよという意味合いになる(リダイレクト>があると直下のリストをとってくる)
+mainnav = soup.select("#mainnav > ul > li") # selectの使い方が少しわかりやすかった気がする
+
+
+for li in mainnav:
+    print(li.a.text)

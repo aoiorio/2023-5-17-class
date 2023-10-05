@@ -12,7 +12,8 @@ a_tag = soup.find_all("a", class_="style-3ki7ar")
 
 # one sentence ver
 # result = [i.get('href') for i in soup.find_all("a", class_="style-3ki7ar")]
-
+# really one sentence ver
+# print(i.get('href') for i in soup.find_all("a", class_="style-3ki7ar"))
 
 for i in a_tag:
     print(i.get('href'))
