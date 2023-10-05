@@ -19,6 +19,6 @@ events = soup.select("ul.menu")
 top = soup.find('div', class_="event-widget")
 ul = top.find('ul')
 
-# for 文で回す
+# for文で回す
 for li in ul.find_all('li'):
     print(li.time.text, li.a.text)
