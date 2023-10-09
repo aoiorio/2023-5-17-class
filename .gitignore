@@ -1,3 +1,4 @@
 __pycache__
 .DS_Store
+# Hide the API key
 web_api/soccer_api/main_soccer.py
