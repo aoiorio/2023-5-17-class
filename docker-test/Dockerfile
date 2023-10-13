@@ -5,5 +5,4 @@ EXPOSE 8888
 COPY init.sql /docker-entrypoint-initdb.d/init.sql
 ENV MYSQL_ROOT_PASSWORD=root
 VOLUME ./db_data:/var/lib/mysql
-
-
+ENTRYPOINT ['/bin/bash']
