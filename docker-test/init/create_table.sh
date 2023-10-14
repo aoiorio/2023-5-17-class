@@ -7,4 +7,4 @@ $CMD_MYSQL -e "create table article (
     body varchar(1000)
     );"
 $CMD_MYSQL -e  "insert into article values (1, '記事3', '記事1です。');"
-$CMD_MYSQL -e  "insert into article values (2, '記事2', '記事2です。');"
+$CMD_MYSQL -e  "insert into article values (2, '記事4', '記事2です。');"
