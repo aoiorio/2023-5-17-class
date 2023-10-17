@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# code of mysql, it's creating a database.
 CMD_MYSQL="mysql -u${MYSQL_USER} -p${MYSQL_PASSWORD} ${MYSQL_DATABASE}"
 $CMD_MYSQL -e "create table article (
     id int(10)  AUTO_INCREMENT NOT NULL primary key,
