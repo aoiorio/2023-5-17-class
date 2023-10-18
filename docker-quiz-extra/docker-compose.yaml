@@ -2,13 +2,14 @@ version: "3.8"
 
 services:
   db:
-    container_name: db
+    container_name: extra-db
     build:
       context: .
       dockerfile: Dockerfile
+    # platform: linux/x86_64
     tty: true
     ports:
-      - 1180:1180
+      - 3306:3306
     env_file:
       - ./.env_mysql
     volumes:
@@ -18,15 +19,6 @@ services:
       - type: bind
         source: ./init
         target: /docker-entrypoint-initdb.d
-
-  web:
-      build: .
-      command: python3 app/app.py
-      volumes:
-          - ./app:/app
-      ports:
-          - 3000:3000
-
 
 volumes:
   mysql-data:
