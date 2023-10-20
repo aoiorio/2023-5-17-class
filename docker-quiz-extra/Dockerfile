@@ -15,7 +15,3 @@ RUN apt-get install python3 python3-pip -y
 RUN pip3 install flask
 
 RUN mkdir /app
-
-FROM node:6
-FROM mysql:8.0
-

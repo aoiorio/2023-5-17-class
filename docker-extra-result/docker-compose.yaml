@@ -1,0 +1,29 @@
+version: "3"
+services:
+  web:
+    # flaskのファイルの指定をできる
+    build: ./flask
+    command: python3 app/app.py
+    volumes:
+        - ./app:/app
+    ports:
+        - 3000:3000
+    links:
+      - db
+    tty: true
+
+  db:
+    build:
+      # dbをどのファイルにあるか指定できる
+      context: ./mysql
+      dockerfile: Dockerfile
+    platform: linux/x86_64
+    tty: true
+    env_file:
+      - ./.env_mysql
+    volumes:
+      - type: bind
+        source: ./mysql/init
+        target: /docker-entrypoint-initdb.d
+    ports:
+      - 3306:3306

@@ -1,0 +1,11 @@
+version: "3"
+services:
+    web:
+        image: httpd
+        volumes:
+            - ./html:/usr/local/apache2/htdocs
+            - httpd-data:/usr/local/apache2/conf
+        ports:
+            - "8080:80"
+volumes:
+        httpd-data:

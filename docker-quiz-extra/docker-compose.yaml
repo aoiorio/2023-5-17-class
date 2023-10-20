@@ -1,25 +1,35 @@
-version: "3.8"
-
+version: '3.8'
 services:
-  db:
-    container_name: extra-db
-    build:
-      context: .
-      dockerfile: Dockerfile
+  web:
     # platform: linux/x86_64
-    tty: true
-    ports:
-      - 3306:3306
-    env_file:
-      - ./.env_mysql
+    build: ./flask
     volumes:
-      - type: volume
-        source: mysql-data
-        target: /var/lib/mysql
-      - type: bind
-        source: ./init
-        target: /docker-entrypoint-initdb.d
-
-volumes:
-  mysql-data:
-    name: mysql-volume
+      - ./flask:/app
+    ports:
+      - 5000:5000
+    links:
+      - db
+    tty: true
+    environment:
+      TZ: Asia/Tokyo
+      FLASK_APP: app.py
+      FLASK_ENV: development
+    command: flask run -h 0.0.0.0 --port 5000
+  db:
+    # platform: linux/x86_64
+    build: ./db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: flask
+      MYSQL_USER: flask
+      MYSQL_PASSWORD: flask
+      TZ: 'Asia/Tokyo'
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_bin
+    volumes:
+      - ./initdb.d:/docker-entrypoint-initdb.d
+      - ./db/data:/var/lib/mysql
+      - ./db/my.cnf:/etc/mysql/conf.d/my.cnf
+      - ./db/init:/docker-entrypoint-initdb.d
+      - ./db/log:/var/log/mysql
+    ports:
+      - 3030:3030
