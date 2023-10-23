@@ -1,6 +1,7 @@
 version: "3.8"
 
 services:
+  # dbの設定
   db:
     container_name: quiz_6_db
     build:
