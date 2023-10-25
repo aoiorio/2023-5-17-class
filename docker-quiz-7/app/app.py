@@ -2,6 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
+# 下の文章でrouteを指定してURLに反映する
 @app.route('/')
 def index():
     return "Hello world!!"
