@@ -1,5 +1,6 @@
 FROM ubuntu:latest
 
+# はじめに実行するコマンドたち
 RUN apt-get update
 RUN apt-get install python3 python3-pip -y
 
