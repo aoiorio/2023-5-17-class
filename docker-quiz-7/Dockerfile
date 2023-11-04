@@ -1,3 +1,4 @@
+# ubuntuの最新バージョンからという意味
 FROM ubuntu:latest
 
 # はじめに実行するコマンドたち
