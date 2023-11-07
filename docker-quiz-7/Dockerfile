@@ -5,6 +5,7 @@ FROM ubuntu:latest
 RUN apt-get update
 RUN apt-get install python3 python3-pip -y
 
+# pip3でflaskをインストールするコマンド
 RUN pip3 install flask
 
 # app folderを作成
