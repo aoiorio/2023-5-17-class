@@ -6,5 +6,6 @@ services:
         command: python3 app/app.py
         volumes:
             - ./app:/app
+        # portを設定する
         ports:
             - 3000:3000
