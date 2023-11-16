@@ -32,5 +32,6 @@ services:
       - ./db/my.cnf:/etc/mysql/conf.d/my.cnf
       - ./db/init:/docker-entrypoint-initdb.d
       - ./db/log:/var/log/mysql
+    # portを指定
     ports:
       - 3030:3030
