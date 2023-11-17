@@ -17,6 +17,7 @@ services:
       FLASK_ENV: development
     command: flask run -h 0.0.0.0 --port 5000
   db:
+    # platform書くとエラーが起きちゃうどん
     # platform: linux/x86_64
     build: ./db
     environment:

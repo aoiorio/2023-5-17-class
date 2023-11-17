@@ -4,7 +4,7 @@ import requests
 def soccer_api():
     url = f"https://api.football-data.org/v4/matches"
     headers = {
-        'X-Auth-token': 'API KEY'
+        'X-Auth-token': '872b5ca0a4f64cf281154f6f53d38962'
     }
 
     response = requests.get(url, headers=headers)
@@ -15,4 +15,4 @@ def soccer_api():
 
 
 soccer_api()
-# My API key API KEY
+# My API key 872b5ca0a4f64cf281154f6f53d38962
