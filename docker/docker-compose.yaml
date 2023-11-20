@@ -2,7 +2,7 @@ version: "3"
 services:
     web:
         image: httpd
-        # volumesでファイルを入れている
+        # volumesでファイルの中身をimportしている
         volumes:
             - ./html:/usr/local/apache2/htdocs
             - httpd-data:/usr/local/apache2/conf
