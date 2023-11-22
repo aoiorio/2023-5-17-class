@@ -6,6 +6,7 @@ services:
     build: ./flask
     volumes:
       - ./flask:/app
+    # web appを開くportを指定
     ports:
       - 5000:5000
     links:
