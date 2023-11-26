@@ -1,3 +1,4 @@
+# versionを指定している
 version: "3"
 services:
     web:
