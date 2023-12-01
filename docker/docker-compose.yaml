@@ -9,6 +9,6 @@ services:
             - httpd-data:/usr/local/apache2/conf
         ports:
             - "8080:80"
-# volumesを読み込む（永続化されたデータ？）
+# volumesを読み込む（永続化されたデータ？））
 volumes:
         httpd-data:
