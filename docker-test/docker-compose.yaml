@@ -19,6 +19,7 @@ services:
         source: ./init
         target: /docker-entrypoint-initdb.d
 
+# volume を取得する(作っている？？)
 volumes:
   mysql-data:
     name: mysql-volume
