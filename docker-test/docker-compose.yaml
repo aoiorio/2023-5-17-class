@@ -22,4 +22,5 @@ services:
 # volume を取得する(作っている？？)
 volumes:
   mysql-data:
+    # mysqlのvolumeを取得
     name: mysql-volume
