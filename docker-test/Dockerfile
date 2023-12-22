@@ -1,3 +1,4 @@
+# 一番最初に実行するコマンドたち
 FROM node:6
 FROM mysql:8.0
 
