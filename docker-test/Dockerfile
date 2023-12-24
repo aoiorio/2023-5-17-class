@@ -1,5 +1,6 @@
 # 一番最初に実行するコマンドたち
 FROM node:6
+# mysql のversion 8.0から読み込む
 FROM mysql:8.0
 
 EXPOSE 8888
