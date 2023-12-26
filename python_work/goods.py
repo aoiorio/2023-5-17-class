@@ -1,3 +1,4 @@
+# connectionから全てをimportする
 from connection import *
 
 
