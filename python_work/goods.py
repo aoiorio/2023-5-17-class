@@ -19,7 +19,7 @@ class Goods:
         self.connection.close() #connectionを閉じる
         return row
 
-    # unn yesterday
+    # 関数を作ってqueryを実行する
     def goods_fetch_all(self):
         query = "SELECT * FROM goods"
         self.connection.execute_query(query)
