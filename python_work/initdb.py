@@ -1,5 +1,6 @@
 import sqlite3
 
+# queryを追加する
 conn = sqlite3.connect("goods.db") # goods.dbのデータベースに繋げている
 cursor = conn.cursor() # カーソルを取得している
 cursor.execute(
