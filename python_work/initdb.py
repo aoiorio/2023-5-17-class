@@ -21,5 +21,5 @@ cursor.execute(query, ("Switch", "004"))
 cursor.execute(query, ("プレステ5", "005"))
 cursor.execute(query, ("サッカーボール", "006"))
 cursor.execute(query, ("黄金バット", "007"))
-conn.commit()
+conn.commit() # データベースにデータを保存する
 conn.close() # データベースを閉じる
