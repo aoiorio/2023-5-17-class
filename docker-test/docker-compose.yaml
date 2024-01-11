@@ -8,6 +8,7 @@ services:
       context: .
       dockerfile: Dockerfile
     tty: true
+    # portを3306に指定する
     ports:
       - 3306:3306
     env_file:
