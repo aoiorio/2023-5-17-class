@@ -3,6 +3,7 @@ from goods import * # *は全てという意味（In this case goodsの全てを
 
 sg.theme("Dark Blue 3") # 好きなテーマを指定できる（テーマの種類はgithubに載っている）
 
+# ここでレイアウトを決めてUIを作る
 layout = [
     [sg.Text("1~7の好きな数字を入力してください"), sg.Text(size=(12, 1), key="-OUTPUT-")],
     [sg.Input(key="-IN-")],
