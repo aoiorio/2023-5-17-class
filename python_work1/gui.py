@@ -1,6 +1,6 @@
 import PySimpleGUI as sg # PySimpleGUIをimport(追加)
 
-
+# layoutを決める
 layout = [[sg.Text("Hello from PySimpleGUI")],
         [sg.Text("GoodMorning from PySimpleGUI")],
         [sg.Text("GoodMorning from PySimpleGUI"), sg.InputText()],] # テキストを入力することが出来る
