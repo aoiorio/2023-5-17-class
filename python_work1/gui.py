@@ -6,5 +6,5 @@ layout = [[sg.Text("Hello from PySimpleGUI")],
         [sg.Text("GoodMorning from PySimpleGUI"), sg.InputText()],] # テキストを入力することが出来る
 
 window = sg.Window('title', layout) # windowを表示する
-evnet, values = window.read()
+evnet, values = window.read() # fileを読み込むコード
 window.close() #ファイルを閉じるコード
