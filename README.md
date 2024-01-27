@@ -1,4 +1,4 @@
-## 🍿This is a 2023-python-class repository.
+## 🍿 This is a 2023-python-class repository.
 1. **chapter[number] means chapter number.**
 2. __Sometimes file's name is variable.__
 3. **I think python is useful and powerful.**
@@ -9,4 +9,4 @@
 8. Typhoon is coming to Tokyo.
 9. .gitignore has unnecessary files name like .DS_Store, __pycache__, etc. So We don't need to delete each of them.
 10. .db means database.
-#### 🥞My Qiita---> https://qiita.com/atomu
+#### 🥞 My Qiita---> https://qiita.com/atomu
