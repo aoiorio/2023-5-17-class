@@ -1,4 +1,4 @@
-# import errorが出る時にはインタープリンタを変えてもいいかも（変えても直らない）
+# import errorが出る時にはインタープリンタを変えてもいいかも（変えても直らない by me）
 import PySimpleGUI as sg # PySimpleGUIをimport(追加)
 
 # layoutを決める

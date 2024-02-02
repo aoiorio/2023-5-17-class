@@ -17,6 +17,7 @@ layout = [
 ### ここまで
 ]
 
+# windowのタイトルを決めている
 window = sg.Window("Window Title", layout)
 
 # while で処理を書いている。
