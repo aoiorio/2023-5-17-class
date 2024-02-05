@@ -1,3 +1,4 @@
+# hide no use files
 __pycache__
 .DS_Store
 # Hide the API key
