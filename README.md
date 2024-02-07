@@ -9,4 +9,5 @@
 8. Typhoon is coming to Tokyo.
 9. .gitignore has unnecessary files name like .DS_Store, __pycache__, etc. So We don't need to delete each of them.
 10. .db means database.
+
 #### 🥞 My Qiita---> https://qiita.com/atomu
