@@ -1,3 +1,4 @@
+// change the mode
 {
   "python.analysis.typeCheckingMode": "basic"
 }
