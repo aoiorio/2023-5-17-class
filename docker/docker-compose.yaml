@@ -2,6 +2,7 @@
 version: "3"
 services:
     web:
+        # imageを選択して仮想空間内にそのimageを使って空間を構築している
         image: httpd
         # volumesでファイルの中身をimportしている
         volumes:
