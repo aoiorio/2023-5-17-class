@@ -9,4 +9,5 @@ def index():
 
 # portを設定する
 if __name__ == '__main__':
+    # appを起動させるpathの指定
     app.run(host='0.0.0.0', port=3030)
