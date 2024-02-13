@@ -13,6 +13,7 @@ services:
       - db
     tty: true
     environment:
+      # timezoneを東京に変える作業
       TZ: Asia/Tokyo
       FLASK_APP: app.py
       FLASK_ENV: development
