@@ -1,5 +1,5 @@
 # hide no use files
 __pycache__
 .DS_Store
-# Hide the API key
+# Hide the API key of collecting soccer information
 web_api/soccer_api/main_soccer.py
