@@ -1,7 +1,6 @@
 # connectionから全てをimportする
 from connection import *
 
-
 class Goods:
     def __init__(self): #一番最初に実行される
         self.connection = SQLiteConnection("goods.db")
