@@ -8,4 +8,6 @@ COPY init.sql /docker-entrypoint-initdb.d/init.sql
 # mysqlに入るためのパスワードをrootにしている
 ENV MYSQL_ROOT_PASSWORD=root
 VOLUME ./db_data:/var/lib/mysql
+
+# I have a yellow error of below code
 ENTRYPOINT ['/bin/bash']
