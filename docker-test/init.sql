@@ -8,6 +8,7 @@ CREATE TABLE user (
   PRIMARY KEY (id)
 );
 
+-- insert some values to the user table I mentioned a while ago
 INSERT INTO user (name) VALUE ('testuser');
 INSERT INTO user (name) VALUE ('foo');
 INSERT INTO user (name) VALUE ('bar');
