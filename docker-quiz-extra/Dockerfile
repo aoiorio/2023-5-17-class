@@ -9,6 +9,7 @@ VOLUME ./db_data:/var/lib/mysql
 RUN pip3 install mysql
 FROM ubuntu:latest
 
+# excute commands by using apt-get
 RUN apt-get update
 RUN apt-get install python3 python3-pip -y
 
