@@ -1,7 +1,7 @@
 CREATE DATABASE dockerdb;
 
 USE dockerdb;
-
+-- create user table and insert values
 CREATE TABLE user (
   id INT AUTO_INCREMENT,
   name VARCHAR(10),
