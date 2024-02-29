@@ -1,3 +1,4 @@
+-- create the database called dockerdb
 CREATE DATABASE dockerdb;
 
 USE dockerdb;
