@@ -3,6 +3,7 @@ FROM mysql:8.0
 
 EXPOSE 8888
 COPY init.sql /docker-entrypoint-initdb.d/init.sql
+# set mysql root password
 ENV MYSQL_ROOT_PASSWORD=root
 VOLUME ./db_data:/var/lib/mysql
 
