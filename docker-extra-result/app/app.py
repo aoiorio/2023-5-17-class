@@ -3,6 +3,7 @@ import mysql.connector
 
 app = Flask(__name__)
 
+# connect to mysql and then execute command of mysql
 @app.route('/')
 def index():
     conn = mysql.connector.connect(
