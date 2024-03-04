@@ -18,5 +18,6 @@ def index():
 
     return str(data)
 
+# if __name__ is __main__ the port will set
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=3000)
