@@ -33,6 +33,7 @@ def search_weather(self):
 
     return data['results'][0]
 
+# if the url is /weather, users can see this page
 @app.route("/weather", methods=['GET', 'POST'])
 def home():
     weather_results = {}
