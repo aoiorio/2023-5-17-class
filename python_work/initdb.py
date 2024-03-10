@@ -12,7 +12,7 @@ cursor.execute(
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 )"""
 )
-# executeは実行という意味
+# executeは実行という意味 (execute the string of query)
 query = "INSERT INTO goods (goods_name, goods_no) VALUES (?, ?)"
 cursor.execute(query, ("ぬいぐるみ", "001"))
 cursor.execute(query, ("プラモデル", "002"))
