@@ -6,6 +6,7 @@ class Goods:
         self.connection = SQLiteConnection("goods.db")
         self.connection.connect()
 
+    # execute the order(query) to database by using this function, but you have to obtain some values of it.
     def goods_insert(self, goods_name, goods_no):
         query = "INSERT INTO goods (goods_name, goods_no) VALUES (?, ?)"
         self.connection.execute_query(query, goods_name, goods_no)
