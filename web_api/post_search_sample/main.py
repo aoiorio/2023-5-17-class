@@ -3,7 +3,7 @@ from flask import Flask, request, render_template
 
 app = Flask(__name__)
 
-
+# search values of zipcode and return one value
 def post_search(post_code):
     url = f'https://zipcloud.ibsnet.co.jp/api/search?zipcode={post_code}'
     response = requests.get(url)
