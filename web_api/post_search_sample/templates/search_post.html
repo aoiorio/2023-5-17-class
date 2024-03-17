@@ -13,6 +13,7 @@
         <br />
         <input type="submit" value="Search your address">
     </form>
+    <!-- if results exist, they'll appear to the main page -->
     {% if results %}
         <h1>Result for your post code</h1>
         <h2>Prefectures: {{ results.address1 }}</h2>
