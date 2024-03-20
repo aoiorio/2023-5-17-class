@@ -11,4 +11,8 @@
 9. .gitignore has unnecessary files name like .DS_Store, __pycache__, etc. So We don't need to delete each of them.
 10. .db means database.
 
+### 😉 Problem
+- I can't write anything in python_work folder.
+    - It's because the folder is from my teacher's repository.
+
 #### 🥞 My Qiita---> https://qiita.com/atomu
