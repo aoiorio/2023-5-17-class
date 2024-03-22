@@ -14,5 +14,6 @@
 ### 😉 Problem
 - I can't write anything in python_work folder.
     - It's because the folder is from my teacher's repository.
+- and more
 
 #### 🥞 My Qiita---> https://qiita.com/atomu
